@@ -1,0 +1,70 @@
+/* (.) is used with class selector and (.) is called as period */
+.display_in_css
+{
+	display: block;
+	background-color:peachpuff;
+	color:hotpink;
+	font-size: 20px;
+
+}
+
+/*block display*/
+.display_in_css1
+{
+	/*percent and pixels have different calculations*/
+	display: block;
+	background-color:mediumspringgreen;
+	color:gold;
+	width:70%;
+	height:50px;
+	font-size: 20px;
+
+}
+
+
+/*inline display*/
+
+.name
+{
+	
+	background-color:mediumspringgreen;
+	color:gold;
+	display: inline;
+	font-size:30px;
+	
+}
+
+.demo
+{
+	background-color:lightpink ;
+	color:black;
+	display: inline-block;
+	font-size: 30px;
+    height:50px;
+    width:150px;	
+}
+
+
+
+
+/*positions in css*/
+/*static position*/
+.positionincss
+{
+    position: static;
+    background-color: lightpink;
+    color:darkmagenta;
+    border:2px solid red;
+
+}
+/*relative position*/
+.positionincss1
+{
+	position: relative;
+    background-color: cadetblue;
+    color:brown;
+    border:2px solid red;
+    top:20px;
+    left:30px;
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="day14-CSSFlex-and-Animation-part1.css">
+</head>
+<body>
+    
+    <h1>FLEXBOX</h1>
+    <h2 style="background-color: maroon;color:yellow;font-size: 40px">flex direction will display layout in row by default <br>
+        >>display:flex is used in order to give flex layout.
+        >>flex direction is used to set the rows,columns,row-reverse,column-reverse</h2>
+
+    <!--
+        Flexbox:
+        >>These are mainly used for creating layouts
+        >>These are 1D layouts
+        (it can be either row or column).
+    --->
+    <!---
+        >>Horizontal (X-axis) justify-content
+        >>Vertical (Y-axis):align-items.
+        >>gap 10px
+        >>flex-direction:row/column.
+        >>flex-wrap:wrap(dynamic feature)
+    --->
+    <!---
+        Note:Even if div has block scope when it is wrappped display:flex it will not act as block scope
+    ---->
+
+       <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+        <div class="child">10</div>
+    
+      </div>
+
+      <h1 style="background-color: pink;font-size:30px;color:maroon">DISPLAY:FLEX is used in parent so that the child gets displayed in flex layout either row or column</h1>
+
+      <h1 style="background-color: navy;font-size:30px;color:orange">
+      FLEX DIRECTION PROPERTIES:<br>
+      flex-direction:row=It will set the content in row wise.<br>
+      flex-direction:column=It will set the content in column-wise.<br> 
+      flex-direction:column-reverse.It will reverse the column.<br>
+      flex-direction:row-reverse=It will reverse the row.
+      </h1>  
+    
+      <h1 style="background-color:lightgreen;font-size:30px;color:red">
+        GAP PROPERTY:We can use  Gap Property instead of margin also.It will provide gap between boxes
+        syntax:gap:10px;
+      </h1>
+
+      <h1 style="background-color:grey;font-size:30px;color:violet">FLEX-
+         WRAP:The flex-wrap css property sets whether felx items are forced onto one line or can wrap into multiple lines.The flex-wrap property is a quick way to make parent elemenets more responsive on various screen sizes.
+              syntax:flex wrap:wrap;
+      </h1>
+
+      <h1 style="background-color:teal;font-size:30px;color:fuchsia">FLEX-RATIO:We can use this instead of width.
+            Syntax:flex:2;  //here the 2 is size which we are giving.
+      </h1>
+
+    <h1 style="background-color:lightblue;font-size:30px;color:brown">JUSTIFY-CONTENT PROPERTIES:
+      justify-content:flex-start:It will display boxes/content from start.<br>
+      justify-content:flex-end:It will display boxes/content from end.<br>
+      justify-content:center:It will display boxes/content in center.<br>
+      justify-content: space-around:This option will evenly distribute flex items in line with equal space around them.Space around creates equal space around items.<br>
+      justify-content: space-between:Space between places equal space between items.<br>
+      justify-content:space-evenly:The space evenly distributes the space betweeen items<br> evenly.It is similiar to space-around but provides equal instead of half-sized space on the edges.
+     </h1>
+
+     <h1 style="background-color:olive;font-size:30px;color:black">ALIGN-ITEMS PROPERTIES:
+         For Column:flex-start,flex-end,center,stretch<br>
+                 align-items:flex-start;<br>
+                align-items:flex-end;<br>
+                align-items:flex-center;<br>
+                align-items:flex-stretch;<br>
+     </h1>
+  
+  <span style="background-color: pink;color:green;font-size: 45px">Please refer another file for animation</span>
+    
+</body>
+</html>

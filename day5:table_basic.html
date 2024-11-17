@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>TABLE BASICS</title>
+</head>
+<body>
+     <!-- <input type="number"/> -->
+   <label>Username:</label> 
+   <input type="text" placeholder="plz enter your username" required />
+   <!--- this required is warning user to enter username--->
+    <!--- and you can see when u hover--->
+   <br />
+   <br />
+   <label>Password:&nbsp</label> 
+   <input type="password" placeholder="plz enter your pwd"  required />
+    <!--- we can as many as radio  button but one input tag with  radio will create one rado button only-->
+   <!-- we can make it required so that field will become important or marked and we have to fill it and we can once we hover the text box which is required we can se msg like please fill it---->  
+   <hr>
+
+   <!-- Here we create radion button  -->
+   <label>Gender</label>  
+   <!--- here lable is correct tag and we sould write our textbox name in between label like username,password,gender,email id etc---->
+   <!-- <input  type="text" placeholder="plz enter ur gender here" required />  -->
+   <!--- we cant take this now like input type="text" take input type="radio" it will create radio button-->
+<input type="radio" name="gender"><label>Male</label>
+   <input type="radio" name="gender"><label>Female</label>
+   <input type="radio" name="gender" ><label>Prefer not to say</label>
+   <!--- here is on drawback that after creation radio button we can see all radion button are providing  us to select but we have to select one option the take an attribute called name and assign a common value like this-->
+
+   <!--- we can take type=numbers for only numbers.type=text for combination of numbers,char,special characcters,symbol etc,type=radio for radio button like selecting single option from multiple ones--->
+
+
+
+<hr>
+<hr>
+
+ <h1>table basics</h1>
+   	<!-- table tag for table  -->
+   <table border="5" style=border-collapse:collapse>
+   	<!-- tr tag for table row  -->
+   	<tr>
+   		<!--- th for table header--> 
+     <th>company name</th>
+     <th>contact no</th>
+     <th>website</th>
+    </tr>
+   	<tr>
+     <td rowspan="2">WIPRO</td>
+     <td>234567791</td>
+     <td>abc@wipro.com</td>
+   	</tr>
+   	<tr>
+     <!--<td>NASA</td>-->
+      <td>234567891</td> 
+     <td>xyz@nasa.com</td>
+   	</tr>
+   	<tr>
+   		<td>amazon</td>
+   		<td>234567899</td>
+        <td>xyp@amazon.com</td>
+   </table>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+/*only transition Property:*/
+div
+{
+	width:100px;
+	height:100px;
+	background-color: red;
+	transition:width 15s;
+}
+div:hover
+{
+	width:800px;
+}
+ 
+/*transition-delay Property:*/
+button
+{
+	background-color: black;
+	color:white ;
+	margin:70px;
+	padding:30px;
+	font-size:20px;
+    /*transition-delay Property:
+	The transition-delay property specifies when the transition effect will start.
+	The transition-delay value is defined in seconds (s) or milliseconds (ms);*/
+    /*transition-delay:5s;*/
+    
+}	
+
+button:hover
+{
+	background-color: aqua ;
+	color:white ;
+	cursor:pointer;
+}
+
+/*Transition-duration property*/
+button1
+{
+	background-color:brown;
+	color:white ;
+	margin:90px;
+	padding:30px;
+	font-size:20px;
+	/*The transition-duration property specifies how many seconds (s) or milliseconds (ms)
+     a transition effect takes to complete. */
+	 /*transition-duration: 1000ms;*/
+	 
+}
+
+button1:hover
+{
+	background-color:purple ;
+	color:white ;
+	cursor:pointer;
+}
+
+/*Transition-property*/
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: height;
+  transition-duration:2s;
+}
+
+div:hover 
+{
+  height: 300px;
+}
+
+button2
+{
+	background-color: black;
+	color:white ;
+	margin:70px;
+	padding:30px;
+	font-size:20px;
+	transition:100ms;
+	transition-timing-function: linear;
+}
+button2:hover
+{
+	background-color: aqua ;
+	color:white ;
+	cursor:pointer;
+}
+
+div
+{
+	width:100px;
+	height: 100px;
+	background-color: red;
+	transition: width 2s;
+   transition-timing-function:linear;
+
+}
+
+div:hover
+{
+	width:300px;
+}

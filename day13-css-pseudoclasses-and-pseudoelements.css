@@ -1,0 +1,151 @@
+/*Hover state:
+   >>Pointing the cursor on the button */
+/*
+button:hover
+{
+	background-color: black;
+	color: white;
+	cursor:pointer;
+}
+*/
+
+/*Active state:
+       >>when we hold left key of teh mouse it will be in a active state */
+/*
+button:active
+{
+	border:10px solid red;
+
+}
+*/
+
+/*Focus state:
+     >>indicating u alreday visited button or opened or clicked the button 
+*/
+
+/*
+button:focus
+{
+	background-color:pink;
+	color:white;
+}
+*/
+
+
+/*anchor unvisted link states */
+/*
+a:link
+{
+	color:red;
+}
+
+a:visited
+{
+	color:green;
+}
+
+a:hover
+{
+    cursor:pointer;	
+}
+*/
+
+/*
+span
+{
+	background-color: red;
+	font-size: 15px;
+	padding:10px;
+	border:5px solid black;
+	margin:10px;
+}
+
+/*First child*/
+/*span:first-child
+{
+	background-color:yellow;
+	color:black;
+}*/
+
+/*last-child*/
+/*span:last-child
+{
+	background-color:yellow;
+	color:black;
+}*/
+
+/*for random element*/
+/*span:nth-child(3)
+ {
+ 	background-color:pink;
+	color:black;
+ }*/
+
+ /*for even element*/
+ /*span:nth-child(even)
+ {
+ 	background-color: blue;
+ 	color:black;
+ }*/
+
+/*for even element*/
+/*span:nth-child(odd)
+ {
+ 	background-color: blue;
+ 	color:black;
+ }
+*/
+
+/*Pseudo element */
+/* use :: before*/
+
+h1::before
+{
+	content:"Hello";
+}
+
+/* use ::after */
+h2::after
+{
+	content:"good morning";
+}
+
+.shape
+{
+	background-color:yellow;
+	margin:100px;
+	width:150px;
+	height:150px;
+	/*It is used to give circle shape*/
+	border-radius: 50%;
+	position:relative;
+}
+
+
+.shape::before
+{
+	content: "";
+	width:60px;
+	height:60px;
+	background-color: red;
+   /*It is used to give circle shape*/
+	border-radius: 50%;
+	position: absolute;
+	top:5px;
+	left:5px;
+
+}
+
+.shape::after
+{
+	content: "";
+	width:60px;
+	height:60px;
+	background-color: red;
+   /*It is used to give circle shape*/
+	border-radius: 50%;
+	position: absolute;
+	bottom:0;
+	right:0;
+
+}

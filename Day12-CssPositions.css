@@ -1,0 +1,108 @@
+
+
+  /*1)static position:
+        >>Its by default
+        >>Hey i just dont wanna fight with anyone else
+         I will just occupy some empty space*/
+ 
+         div
+         {
+             position: static;
+             background-color: gold;
+             color: steelblue;
+             border:2px solid black;
+             font-size: 20px;
+             
+       
+         }
+       
+       /*2)Relative positions:
+              >>Its relative to iits original positions/static/deafult positions
+              >>offset (top,left,bottom,right)*/
+       
+         div1
+         {
+             position: relative;
+             background-color:peru;
+             color: black;
+             border: 2px solid green;
+             font-size: 20px;
+             top:15px;
+             left:25px;
+         }
+       
+          /*3)Fixed psoitions:
+            >>Here the highligghted section will be fixed to a specific position 
+            even on scrolling either of the direction*/
+         div2
+         {
+             position: fixed;
+             background-color:peru;
+             color: black;
+             border: 2px solid green;
+             font-size: 20px;
+             top:15px;
+             left:25px;
+         }
+       
+         div2
+                {
+                      position:fixed;
+                      background-color: palegreen;
+                      color:tomato;
+                   font-size: 20px;
+                   border:2px solid red;
+       
+          
+             }
+       
+         /*Absolute position 
+         >>It should always have a parent
+         >>The parent sjhould be of position realtive
+         >>the offset values are with respective to parent not with respective to entire ui
+         >>absolute should be always wrap up with parent 
+       */
+          #parent
+            {
+                 position:relative;
+                 height:300px;
+                 width:400px;
+                 border:2px dashed black;
+       
+                  }
+       
+            div4
+            {
+                     position:absolute;
+                        background-color:red;
+                        color:aqua;
+                   font-size: 20px;
+                   border:2px solid grey;
+                   top:200px;
+                   left:0px;
+                   
+       
+            }
+       
+         /*Sticky
+       
+       
+         */
+       
+       
+         div5 
+         {
+           position:sticky;
+           background-color: green;
+           color:purple;
+           font-size:30px;
+           top:10px;
+           left:40px;
+          
+       
+       
+          
+         }  
+       
+       
+       

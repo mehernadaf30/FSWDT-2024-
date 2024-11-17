@@ -1,0 +1,19 @@
+h1
+{
+	background-color:beige;
+	color:crimson;
+	border:2px solid black;
+    /*first method for padding*/
+	padding: 20px;
+	margin:20px;
+}
+    /*second method for padding 
+    this all is in clockwise direction
+    padding-top:25px;
+	padding-right:50px;
+	padding-bottom:30px;
+	padding-left:30px;
+	
+
+	/*another methods  to save lines/space*/
+     /*padding:30px 10px 20px 50px;

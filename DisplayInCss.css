@@ -1,0 +1,25 @@
+.demo
+{
+	display:block;
+	background-color: plum;
+	color:mediumaquamarine;
+
+}
+
+
+.name
+{
+	display:inline;
+	background-color: lavenderblush;
+	color:red;
+
+}
+
+
+.fruits
+{
+	display:inline-block;
+	background-color:palevioletred;
+	color:rebeccapurple;
+	font-size:40px;
+}

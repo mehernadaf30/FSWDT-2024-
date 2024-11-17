@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Video,Audio,iframe and semantic tags</title>
+    </head>
+
+    <body>
+        <h1>Here is our video to be displayed on UI</h1>
+        <h2>VIDEO</h2>
+    <video controls autoplay loop width="500" height="400" >
+            <source src="C:\HTML\Full stack web development training\Global Warming.mp4" type="video/mp4" />
+        </video>
+
+   <!--- We can  add two video here like this--->
+      <!-- but use two diffrent video tags like this---->
+    <video controls autoplay loop width="400" height="300" >
+            <source src="C:\HTML\Full stack web development training\movie.mp4" type="video/mp4" />
+    </video>
+   
+   <!---- we can even use the src directly with video tag without using source-->
+    <video  src="C:\HTML\Full stack web development training\movie.mp4" controls autoplay loop width="400" height="300" />
+    </video>
+
+    <!--- audio tag--->
+    <!--- use audio tag,source tag,src attribute,type attribute,controls,loop-->
+    <audio controls loop autoplay>
+        <source src="C:\HTML\Full stack web development training/hamdard.mpeg" type="audio/mp3" />
+
+    </audio>
+
+     <br>
+     <!----Iframe tags---->
+     <h1>iframe tags are used to deal with youtube videos
+        so that we can take youtube videos in our output screen and specially iframe are used for youtube videos
+    </h1>
+    <iframe src="https://www.youtube.com/embed/t0Q2otsqC4I?si=8Pk5VJBuGNXBNWzz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" width="500" height="300">
+    </iframe>
+
+
+<!--- just normal youbute link tag --->
+<a href="https://www.youtube.com/">Youtube</a> 
+
+   </body>
+</html>
+
+
+
+

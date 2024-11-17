@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>Forms in html</title>
+    </head>
+    <body style="background-image:url('https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&w=600')">
+    <!--- we place the above information in proper alignment/identations using table tags--->
+     <!--- Lets see------>
+          <br>
+          <br>
+          <br>
+          <table>
+          <tr>
+            <td><label>User name:</label>
+            <td><input type="text" placeholder="plz enter your username" required /></td>
+          </tr>
+       
+          <tr>
+            <td><label>Password:</label>
+            <td><input type="Password" placeholder="plz enter your pwd" required /><td>
+          </tr>
+
+
+          <tr>
+            <td><label>Gender</label></td>
+            <td><input type="radio" name="gender" disabled/><label>Male</label>
+            <input type="radio" name="gender" /><label>Female</label>
+            <input type="radio" name="gender"/><label>Prefer not to say</label></td>
+          </tr>
+
+          <tr>
+            <td><label>Select which course u want: </label></td>
+            <td><input type="checkbox" name="course"/><label>C</label>
+            <input type="checkbox" name="course"/><label>CPP</label>
+            <input type="checkbox" name="course" disabled /><label>JAVA</label>
+            <input type="checkbox" name="course"/><label>HTML</label>
+            <input type="checkbox" name="course"/><label>CSS</label></td>
+          </tr>
+
+          <tr>
+            <td><label>Choose your course:</label></td>
+            <td>
+               <select>
+               <option value=""></option>
+               <option value="web">Web
+               </option>
+               <option value="ds">Data structure</option>
+               <option value="ai">AI
+               </option>
+               <option value="ml">Machine Learning</option>
+               <option value="angular">Angular</option>
+               </select>
+            </td>
+    
+            <tr>
+                <td><input type="submit"/></td>
+                <td><input type="reset" /></td>
+            </tr>
+            </table>
+
+            <br/>
+            <br/>
+            <br/>
+            <hr/>
+        <form>
+            <label>User name:</label>
+            <input type="text" placeholder="plz enter your username" required />
+
+            <br/>
+            <br/>
+
+            <label>Password:</label>
+            <input type="Password" placeholder="plz enter your pwd" required />
+
+            <br/>
+            <br/>
+          
+            <label>Gender</label>
+            <input type="radio" name="gender" disabled/><label>Male</label>
+            <input type="radio" name="gender" /><label>Female</label>
+            <input type="radio" name="gender"/><label>Prefer not to say</label>
+       
+            <br/>
+            <br/>
+
+            
+            <!--- here checkbox section starts--->
+            <!--- checkbox means we can select so many options and checkbox is used  as type----> 
+            <!--- we can use a common grouping attribute like name="course" it is ot compulsory in checkbox but in radio  we have to take it as it will help to select one option among multiple option---> 
+            <label>Select which course u want: </label>
+            <input type="checkbox" name="course"/><label>C</label>
+            <input type="checkbox" name="course"/><label>CPP</label>
+            <input type="checkbox" name="course" disabled /><label>JAVA</label>
+            <input type="checkbox" name="course"/><label>HTML</label>
+            <input type="checkbox" name="course"/><label>CSS</label>
+
+            <br>
+            <br>
+            
+             <!--- And one thing we can already tick mark the item in program also but using checked keyword inside input tag--->
+
+           <label>Select which course u want: </label>
+           <input type="checkbox" name=" course" checked><label>Marathi</label>
+           <input type="checkbox" name="course" /><label>Hindi</label>
+           <input type="checkbox" name="course" checked /><label>English</label> 
+          
+           <br>
+           <br>
+           
+           <!--- if we want to set date then it is possible using type="date" ---->
+           <label>Select Date:</label>
+           <input type="date"  />
+           <br>
+           <br>
+           <label>Datetime:</label>
+           <input type="datetime"  />
+           <br>
+           <br>
+           <label>Datetimelocal:</label>
+           <input type="datetime-local" />
+
+
+           <br>
+           <br>
+           <br>
+         
+             <!--- Now their is small change here use select tag with option_tag and value attribute is  used to store the value like whatever we provide in o/p screen--> 
+
+         <label>Choose your course:</label>
+         <select>
+               <option value=""></option>
+               <option value="web">Web
+               </option>
+               <option value="ds">Data structure</option>
+               <option value="ai">AI
+               </option>
+               <option value="ml">Machine Learning</option>
+               <option value="angular">Angular</option>
+          </select>
+
+          <br>
+          <br>
+         
+          <input type="submit"/>
+          <input type="reset" />
+        </form>
+
+         <input type="file" >
+    </body>
+</html>
